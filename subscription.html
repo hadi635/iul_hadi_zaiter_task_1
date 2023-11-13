@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+</head>
+
+<body>
+    <!-- Top Page Tab Bar -->
+    <nav style="background-color: #89898979; padding: 10px;">
+        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+            <li style="float: left; margin-right: 20px;">
+                <a href="index.html">
+                    <span style="font-size: 20px;">🏠</span> Home
+                </a>
+            </li>
+            <li style="float: left; margin-right: 20px;">
+                <a href="subscription.html">
+                    <span style="font-size: 20px;">📋</span> Subscription
+                </a>
+            </li>
+            <li style="float: left;">
+                <a href="topics.html">
+                    <span style="font-size: 20px;">✍️</span> Topics
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <!-- Subscription Form -->
+    <center>
+        <form
+            style="text-align: left; width: 50%; font-size: 18px; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+
+            <label for="name" style="display: block; margin-bottom: 10px;">Name:</label>
+            <input type="text" id="name" name="name" required
+                style="width: 100%; padding: 8px; border-radius: 5px; margin-bottom: 15px;">
+
+            <label for="email" style="display: block; margin-bottom: 10px;">Email:</label>
+            <input type="email" id="email" name="email" required
+                style="width: 100%; padding: 8px; border-radius: 5px; margin-bottom: 15px;">
+
+            <label for="gender" style="display: block; margin-bottom: 10px;">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+
+            <label for="hobbies" style="display: block; margin-bottom: 10px;">Hobbies:</label>
+            <input type="checkbox" id="reading" name="hobbies" value="reading"> Reading
+            <input type="checkbox" id="gaming" name="hobbies" value="gaming"> Gaming<br><br>
+
+            <input type="submit" value="Submit"
+                style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">
+            <input type="reset" value="Cancel"
+                style="background-color: #f44336; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">
+        </form>
+    </center>
+
+
+</body>
+
+</html>
